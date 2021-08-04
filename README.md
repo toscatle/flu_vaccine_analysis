@@ -1,5 +1,4 @@
 # Flu Vaccine Analysis for _______
-# Movie Data Analysis for Microsoft Recommendations
 Author: Tosca Le
 
 <!-- ![movie theater](./images/movieTheater.png) -->

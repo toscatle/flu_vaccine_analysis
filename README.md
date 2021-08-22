@@ -1,4 +1,4 @@
-# Flu Vaccine Analysis for _______
+# Flu Vaccine Analysis for the Public Health Institute
 Author: Tosca Le
 
 <!-- ![movie theater](./images/movieTheater.png) -->
@@ -6,26 +6,26 @@ Author: Tosca Le
 
 ## Overview
 
-<!-- This project explores different types of films in order to identify actionable recommendations for Microsoft's new movie studio. Descriptive analysis of which films perform the best at the box office shows that film ratings can vary depending on the genre and runtime. In addition, some genres tend to have a greater return on investment when compared to others. Microsoft can use this analysis to aid their decision in prioritizing what types of films to produce. -->
+This project explores the National 2009 H1N1 Flu Survey (NHFS), which was a phone survey that asked respondents if they received the H1N1 and seasonal flu vaccines, as well as additional questions about their socioeconomic, demographic background, and opinions on illness risks and vaccine effectiveness. 
+
+The Public Health Institute would like to focus their efforts on outreach to communities that would benefit from more vaccine information/resources based on features identified to affect the probability of receiving the vaccine the most.
 ***
 
 ## Business Problem
 
-<!-- Like other companies creating original video content, Microsoft may be able to appropriately allocate their resources and produce movies that will perform well based on specific success metrics. By doing so, Microsoft can make decisions on what types of movies to create as the new movie studio grows. By using datasets from some of the most popular film review websites, such as IMDb, I describe the relationship between genres, ratings, and gross to anticipate what films will be successful. -->
+The goal is to understand what drives the models and which features are important in the prediction of individuals who will get the seasonal flu vaccine or not. The Public Health Institute should be able to use this understanding to minimize the amount of people that could've benefited from vaccine outreach and see what factors might contribute the most to individuals choosing not to receive the vaccine. By knowing this, the Public Health Institute can focus their efforts on specific communities and aid in providing the necessary resources to increase vaccine rates and in return, better understand vaccine effectiveness.
 ***
 
 ## Data
 
-<!-- IMDb and The Numbers are popular movie review sites that have a plethora of datasets on not only ratings, but gross and other information related to the movie. 
-The IMDb basics dataset includes movie titles from 2010 to projected titles up until 2115, with additional information in runtime and genres. The IMDb ratings dataset includes average rating and number of votes for each movie. The Numbers dataset includes movie characteristics such as release date, production budget, domestic and worldwide gross. -->
+The NHFS data subset includes a features and labels set. The features set contains the different survey questions while the labels set contains the target variables, which are whether the respondents received the vaccines. The dataset contains 26,707 entries. For this analysis, only the seasonal flu label will be used. In addition, specific H1N1 survey features will not be used.
 
 ***
 
 
 ## Methods
 
-<!-- This project uses descriptive analysis, including trends based on categories of the data. This provides an overview of rating based on genres, runtimes, gross and how this factors into return on investment.
-I prepared the data by checking for null values, changing specific datatypes, and transforming the dataframes to obtain unique genres or add necessary columns. Given the data and business problem, these steps were neccesary as not one dataset had all the characteristics and information needed for analysis.  -->
+This project uses regression and classification models. After preparing and preprocessing the data, the dataset is split into train and test subsets for model validation. A pipeline is built out to iterate through the different models.
 
 ***
 

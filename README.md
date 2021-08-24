@@ -1,7 +1,7 @@
 # Flu Vaccine Analysis for the Public Health Institute
 Author: Tosca Le
 
-<!-- ![movie theater](./images/movieTheater.png) -->
+<img src="images/vaccine stock photo.jpeg">
 
 
 ## Overview
@@ -57,30 +57,33 @@ Horror, Mystery, and Thriller have the greatest average return on investment. On
 * When considering the average runtime, movies longer than 120 minutes will have an overall higher rating than movies shorter than 100 minutes. Movies that are either very short or very long received higher ratings possibly due to the nature of these genres. Microsoft should consider these runtimes when producing specific genres.
 * Microsoft can leverage movies in genres such as Horror, Mystery and Thriller to make a greater return on the initial production budget. Reality-TV, War and Western movies should be reconsidered when deciding budget since these genres had an overall loss. -->
 
+***
+
 ### Next Steps
 
-<!-- Further analyses could lead to additional and more specific insights to produce movies that will perform best:
+* The survey data included H1N1-specific questions as well as whether or not the respondent received the H1N1 vaccine. These are likely to be highly correlated with seasonal flu attitudes and outcomes, which can affect the interpretation of the models. It would be interesting to examine these relationships, especially in the context of how it may affect other vaccines.
 
-* Additional data on the demographics of the audience would be helpful to explore why certain genres are more popular when the number of movies vary greatly from genre to genre. This could help better predict ratings and the correlation to runtime as well.
-* A better prediction of domestic versus worldwide gross and could predict the success of certain movies based on different markets. Additionally, differentiation between sales (e.g. box office sales vs. streaming sites) could predict what types of movies are more successful during its inital release or over a period of time.
-*** -->
+* Since there was such a wide range of features, including the categorical features that were not omitted, it might be beneficial to simplify the analysis by examining specific subsets of features and exploring more details about the implications of certain features. In addition, a deeper look into the coded responses for the few categorical features would be useful.
+
+* There are many parameters that could've been tuned or other models to explore. Our understanding of these additional iterations can help the business problem as well.
+
+***
 
 ## For More Information
 
-<!-- Please review my full analysis in my [Jupyter Notebook](./movie_data_analysis.ipynb) or [presentation](./movie_data_analysis_presentation.pdf). -->
+Please review my full analysis in my [Jupyter Notebook](./flu_vaccine_analysis.ipynb) or [presentation](./flu_vaccine_analysis_presentation.pdf).
 
 For any additional questions, please contact me at **toscatle@gmail.com**.
 
+***
+
 ## Repository Structure
-
-
 
 ```
 ├── images
 ├── .gitignore
 ├── LICENSE                          
 ├── README.md 
-├── flu_vaccine_analysis_draft.ipynb
-├── flu_vaccine_analysis_final.ipynb                                   
+├── flu_vaccine_analysis.ipynb                                  
 └── flu_vaccine_analysis_presentation.pdf                               
 ```

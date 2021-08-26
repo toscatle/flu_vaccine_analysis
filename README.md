@@ -73,6 +73,8 @@ Explaining the effectiveness of receiving the flu vaccine and risks of not recei
 
 Please review my full analysis in my [Jupyter Notebook](./flu_vaccine_analysis.ipynb) or [presentation](./flu_vaccine_analysis_presentation.pdf).
 
+The data for this analysis was provided by [DrivenData](https://www.drivendata.org/competitions/66/flu-shot-learning/page/210/) through the courtesy of the [United States National Center for Health Statistics](https://www.cdc.gov/nchs/index.htm). 
+
 For any additional questions, please contact me at **toscatle@gmail.com**.
 
 ***
